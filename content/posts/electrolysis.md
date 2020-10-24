@@ -7,7 +7,7 @@ draft: false
 
 {{< youtube -M7zCZBEDUU >}}
 
-An element is something that cannot be split further into something that is simpler. For over a thousand years, the Universe was assumed to be made of four different elements - Fire, Earth, Air, and Water. 
+An element is something that cannot be split further into something that is simpler. For over a thousand years, the Universe was assumed to be made of four different elements - Fire, Earth, Air, and Water. Or so said Aristotle.
 
 In 1800, a surgeon and a chemist conclusively proved that at least one of the above, Water, was not an element at all. In fact, they proved that water can be split into two things - Hydrogen and Oxygen. And they realized this quite by accident. They had recently got the specifications on how to make a voltaic pile (from a letter a Signor Volta sent to the Royal Society in London) and were "messing" around with it, when they realized that a tiny bit of gas was coming out a drop of water that was connected to their apparatus. 
 
