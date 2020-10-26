@@ -1,7 +1,8 @@
 ---
 title: "Sorry Aristotle"
 date: 2020-10-24T19:04:06+05:30
-thumb_image: "/images/volta/post.jpg"
+featured_image: "/images/electrolysis/IMG_6150.jpeg"
+thumb_image: "/images/electrolysis/IMG_6150.jpeg"
 draft: false
 ---
 

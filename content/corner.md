@@ -1,5 +1,5 @@
 ---
-title: The Qurious Corner
+title: QuriousCorner
 description: A place for creativity
 type: page
 menu: main

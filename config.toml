@@ -1,5 +1,4 @@
-baseURL = "https://www.aquriousmind.com/"
+baseURL = "https://www.aquriousmind.com"
 languageCode = "en-us"
 title = ""
 theme = "ananke"
-
