@@ -3,6 +3,7 @@ title: "Volta's Experiment"
 date: 2020-09-20T15:44:40+05:30
 featured_image: "/images/volta/post.jpg"
 thumb_image: "/images/volta/post.jpg"
+omit_header_text: true
 draft: false
 ---
 
