@@ -3,7 +3,7 @@ title: "Allesandro Volta"
 date: 2020-10-04T19:37:13+05:30
 featured_image: "/images/volta/Page_1.jpg"
 thumb_image: "/images/volta/featured_image.jpg"
-omit_header_text: true
+
 draft: false
 ---
 
