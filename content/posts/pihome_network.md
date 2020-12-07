@@ -1,6 +1,6 @@
 ---
 title: "Part 2: Lay of the land"
-date: 2020-12-06T08:10:51+05:30
+date: 2020-12-05T08:10:51+05:30
 thumb_image: "/images/pi/HomeCloud.png"
 omit_header_text: true
 draft: false
