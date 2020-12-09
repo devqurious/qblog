@@ -1,5 +1,5 @@
 ---
-title: "Part 4: Configure the hostname"
+title: "Part 5: Configure the hostname"
 date: 2020-12-08T08:10:51+05:30
 thumb_image: "/images/pi/DNS.png"
 omit_header_text: true
@@ -7,7 +7,11 @@ draft: false
 tags: ["homecloud", "computers"]
 ---
 
-We homo sapiens are good with names. Let's give a hostname to our master node. In the network below we have a firewall that can act as a DNS server too, so let's add a DNS host entry to the router. Now anything that's directly connected to the POE switch will see that hostname. It may take a few minutes to take effect. 
+We homo sapiens are good with names. Let's give a hostname to our master node. In the network below we have a firewall that can act as a DNS server too, so let's add a DNS host entry to the router. 
+
+![](/images/pi/dns_entry.png)
+
+Now anything that's directly connected to the POE switch will see that hostname. It may take a few minutes to take effect. 
 
 ![](/images/pi/DNS.png)
 

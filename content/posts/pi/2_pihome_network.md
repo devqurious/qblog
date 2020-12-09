@@ -11,6 +11,8 @@ tags: ["homecloud", "computers"]
 
 It's a good idea to visualize where the cloud will sit among other things. We will start with one RPi box as the master. It will be controlled by a Macbook Pro - yes, there are no absolute masters in life. :)
 
+The firewall here is pretty central to the network. It's where we configure DHCP, DNS and a whole lot more. Without it, setting up this network would be downright painful.
+
 This is the time to also note down the IP addresses of your devices. If you have multiple wired and wireless neteorks make sure you can ping across them. 
 
 Onward!
