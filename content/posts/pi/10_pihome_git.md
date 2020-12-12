@@ -1,51 +1,32 @@
 ---
-title: "Part 9: Hello World"
-date: 2020-12-12T08:10:51+05:30
-thumb_image: "/images/pi/hello-world.png"
+title: "Part 10: GitHub and VSCode Rsync"
+date: 2020-12-12T09:10:51+05:30
+thumb_image: "/images/pi/sync.png"
 omit_header_text: true
-draft: false
+draft: true
 tags: ["homecloud", "computers"]
 ---
 
-It all starts [here](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program). 
+We've started writing enough code now to neccesitate git. Login to GitHub, create a new project repository and follow the instructions to connect it to a repo in your development box.
 
-Ultimately, all of this is about deploying apps. So let's deploy one, shall we? 
+It's great that you can add all your code to the repo, but copying the code over on every change to the pi is a pain. This is where the [vscode rsync extension](https://github.com/thisboyiscrazy/vscode-rsync#workspaces) comes in handy. Once this is all setup, then as soon as you hit save, it will copy over any changes to the pi. Sweet!
 
-We will deploy the nginx app, a web server that will return a page that has one message on it - Hello, World (surprise, surprise). There are three thing we need:
+Click on the exploding box icon, search for rsync and install it.
 
-- The nginx app definition (the app will be pulled from dockerhub)
-- A service definition 
-- An ingress controller (traefik) to expose the app to the "outside" world.
+![](/images/pi/rsync-1.png)
 
-When all this is complete, you can simply open the application in any browser, on any device in the network by simply poining to [http://newton](http://newton) where *newton* resolves the IP address to your pi. Your pi is now at work.
+Next, click on Code | Preferences | Settings (on mac) and scroll to rsync settings section.
 
-![](/images/pi/hello-world-3.png)
+![](/images/pi/rsync-2.png)
 
-The entire process is explained beautifully [here](https://www.youtube.com/watch?v=QcC-5fRhsM8). But newer versions of K3s have rendered some parts of the yml inaccurate. 
+Then configure away.
 
-The updated one can be found [here](https://github.com/devqurious/homecloud/blob/main/yml/mysite-nginx.yml) but alas, one day it is sure to be outdated and inaccurate itself. 
+![](/images/pi/rsync-3.png)
 
+![](/images/pi/rsync-4.png)
 
-## Play round
+![](/images/pi/rsync-5.png)
 
-Change the replicas to 3, and boom, you have three pods running now and serving your users. 
+![](/images/pi/rsync-6.png)
 
-```
-ubuntu@newton:~$ sudo kubectl get pods -o wide
-NAME                            READY   STATUS    RESTARTS   AGE    IP           NODE     NOMINATED NODE   READINESS GATES
-mysite-nginx-5559ffd776-xftrv   1/1     Running   0          138m   10.42.0.11   newton   <none>           <none>
-mysite-nginx-5559ffd776-64mhj   1/1     Running   0          8s     10.42.0.12   newton   <none>           <none>
-mysite-nginx-5559ffd776-vzrh6   1/1     Running   0          8s     10.42.0.13   newton   <none>           <none>
-```
-
-Well, right now, it's just serving you. 
-
-To modify the message
-
-```
-sudo kubectl edit configmap mysite-html
-```
-
-## An Important Note
-
-Finding a hello world program was surprisingly hard - most of the sample yml files are for apps that are NOT arm-based. So copying them will not work, and you will see the dreaded CrashBackoff status for all the pods. The nginx app in this post works fine. If you're facing problems in deploying an app, check that the app is supported on arm architecture.
+Make some change to your local folder and watch it seamlessly rsync to the server...on every save.
