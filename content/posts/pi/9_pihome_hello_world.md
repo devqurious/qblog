@@ -46,6 +46,13 @@ To modify the message
 sudo kubectl edit configmap mysite-html
 ```
 
+To clean up
+
+```
+sudo kubectl delete -f mysite.yaml
+sudo kubectl delete configmap mysite-hml
+```
+
 ## An Important Note
 
 Finding a hello world program was surprisingly hard - most of the sample yml files are for apps that are NOT arm-based. So copying them will not work, and you will see the dreaded CrashBackoff status for all the pods. The nginx app in this post works fine. If you're facing problems in deploying an app, check that the app is supported on arm architecture.
