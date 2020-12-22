@@ -1,6 +1,6 @@
 ---
 title: "Part 13: Installing Helm"
-date: 2020-12-12T12:10:51+05:30
+date: 2020-12-12T16:10:51+05:30
 thumb_image: "/images/pi/boat.png"
 omit_header_text: true
 draft: true

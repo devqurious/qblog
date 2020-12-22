@@ -88,7 +88,7 @@ Not the kind - Ingress. Also note that we're exposing the service on the /pihole
 sudo kubectl apply -f pihole-web.yml
 ```
 
-Now you should be able to open the wonderful web UI of pihole. 
+Now you should be able to open the wonderful web UI of pihole by navigating to [http://newton/pihole/admin/](http://newton/pihole/admin/). 
 
 ![](/images/pi/pi_home.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "Part 12: CrashBackOff!"
-date: 2020-12-12T11:10:51+05:30
+date: 2020-12-15T11:10:51+05:30
 thumb_image: "/images/pi/Error.png"
 omit_header_text: true
 draft: true
