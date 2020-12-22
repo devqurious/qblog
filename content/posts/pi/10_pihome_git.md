@@ -1,6 +1,6 @@
 ---
 title: "Part 10: GitHub and VSCode Rsync"
-date: 2020-12-12T09:10:51+05:30
+date: 2020-12-13T09:10:51+05:30
 thumb_image: "/images/pi/sync.png"
 omit_header_text: true
 draft: true
