@@ -34,6 +34,41 @@ NAME     STATUS   ROLES    AGE    VERSION
 ubuntu   Ready    master   133m   v1.19.4+k3s1
 ```
 
+Running pods. 
+
+```
+ubuntu@newton:~/homecloud/yml$ sudo kubectl get pods -o wide --all-namespaces
+NAMESPACE     NAME                                     READY   STATUS      RESTARTS   AGE     IP          NODE     NOMINATED NODE   READINESS GATES
+kube-system   metrics-server-7b4f8b595-phxs8           1/1     Running     0          2m42s   10.42.0.2   newton   <none>           <none>
+kube-system   local-path-provisioner-7ff9579c6-sv7rh   1/1     Running     0          2m42s   10.42.0.4   newton   <none>           <none>
+kube-system   coredns-66c464876b-2wnnl                 1/1     Running     0          2m42s   10.42.0.5   newton   <none>           <none>
+kube-system   helm-install-traefik-mpfjq               0/1     Completed   0          2m42s   10.42.0.3   newton   <none>           <none>
+kube-system   svclb-traefik-jh45j                      2/2     Running     0          97s     10.42.0.6   newton   <none>           <none>
+kube-system   traefik-5dd496474-hxczn                  1/1     Running     0          97s     10.42.0.7   newton   <none>           <none>
+```
+
+Running services.
+
+```
+ubuntu@newton:~/homecloud/yml$ sudo kubectl get services -o wide --all-namespaces
+NAMESPACE     NAME                 TYPE           CLUSTER-IP     EXTERNAL-IP    PORT(S)                      AGE     SELECTOR
+default       kubernetes           ClusterIP      10.43.0.1      <none>         443/TCP                      3m30s   <none>
+kube-system   kube-dns             ClusterIP      10.43.0.10     <none>         53/UDP,53/TCP,9153/TCP       3m28s   k8s-app=kube-dns
+kube-system   metrics-server       ClusterIP      10.43.19.110   <none>         443/TCP                      3m28s   k8s-app=metrics-server
+kube-system   traefik-prometheus   ClusterIP      10.43.75.178   <none>         9100/TCP                     2m10s   app=traefik,release=traefik
+kube-system   traefik              LoadBalancer   10.43.8.254    172.16.16.31   80:31829/TCP,443:32207/TCP   2m10s   app=traefik,release=traefik
+```
+
+Running ingresses. 
+
+```
+ubuntu@newton:~/homecloud/yml$ sudo kubectl get ing -o wide --all-namespaces
+Warning: extensions/v1beta1 Ingress is deprecated in v1.14+, unavailable in v1.22+; use networking.k8s.io/v1 Ingress
+No resources found
+```
+
+That's a lot that got un-packed. 
+
 To uninstall:
 
 ```
