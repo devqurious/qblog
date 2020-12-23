@@ -3,7 +3,7 @@ title: "Part 14: Installing Pihole"
 date: 2020-12-17T12:10:51+05:30
 thumb_image: "/images/pi/pihole-logo.png"
 omit_header_text: true
-draft: true
+draft: false
 tags: ["homecloud", "computers"]
 ---
 

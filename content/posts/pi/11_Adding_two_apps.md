@@ -3,7 +3,7 @@ title: "Part 11: Routing to multiple apps"
 date: 2020-12-14T10:10:51+05:30
 thumb_image: "/images/pi/two.png"
 omit_header_text: true
-draft: true
+draft: false
 tags: ["homecloud", "computers"]
 ---
 

@@ -3,7 +3,7 @@ title: "Part 13: Installing Helm"
 date: 2020-12-16T16:10:51+05:30
 thumb_image: "/images/pi/boat.png"
 omit_header_text: true
-draft: true
+draft: false
 tags: ["homecloud", "computers"]
 ---
 
