@@ -21,7 +21,7 @@ When all this is complete, you can simply open the application in any browser, o
 
 ![](/images/pi/hello-world-3.png)
 
-The entire process is explained beautifully [here](https://www.youtube.com/watch?v=QcC-5fRhsM8). But newer versions of K3s have rendered some parts of the yml inaccurate. 
+The entire process is explained beautifully [here](https://www.youtube.com/watch?v=QcC-5fRhsM8) and [written here](https://carpie.net/articles/ingressing-with-k3s). But newer versions of K3s have rendered some parts of the yml inaccurate. 
 
 The updated one can be found [here](https://github.com/devqurious/homecloud/blob/main/yml/mysite-nginx.yml) but alas, one day it is sure to be outdated and inaccurate itself. 
 

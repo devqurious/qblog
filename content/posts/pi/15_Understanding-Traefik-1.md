@@ -1,5 +1,5 @@
 ---
-title: "Part 15: Understanding Traefik - The Dashboard (1)"
+title: "Part 15: Traefik - The Dashboard (1)"
 date: 2020-12-18T12:10:51+05:30
 thumb_image: "/images/pi/traefik.png"
 omit_header_text: true
