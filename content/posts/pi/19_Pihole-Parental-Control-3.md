@@ -25,8 +25,8 @@ To enable it back.
 ./ph_groups Restricted 1
 ```
 
-Now, like before, [stick this in a cron](https://github.com/devqurious/homecloud/blob/main/yml/pihole/ph_cron.cron), and voila, you have time based domain blocking for specific clients on your network. And even if the PiHole pod restarts it is **eventually** guaranteed to do the right thing. 
+Now, like before, [stick this in a cron](https://github.com/devqurious/homecloud/blob/main/yml/pihole/ph_cron.cron), and voila, you have time based domain blocking for specific clients on your network. And even if the PiHole pod restarts your configuration is not persists. Now if the PiHole is restarting around the time when the cron job is about to run, you might miss a beat, but that's quite a corner case and **eventually** the system will do the right thing. 
 
-Now the odd chance of restricted domains being accessible for sometime after a restart...is something that's acceptable.
+Now the odd chance of restricted domains being accessible (or not accessible) for sometime...is something that's acceptable.
 
 For now.
