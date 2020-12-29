@@ -1,6 +1,6 @@
 ---
 title: "Part 21: Running commands"
-date: 2020-12-23T12:10:51+05:30
+date: 2020-12-24T12:10:51+05:30
 thumb_image: "/images/pi/exec_command.png"
 omit_header_text: true
 draft: false
