@@ -24,7 +24,7 @@ check_minecraft.py --hostname 192.168.1.254 -m "Welcome to Minecraft on Home Clo
 MINECRAFT OK: 0/20 players online
 ```
 
-The next script is a simple one to spawn a new process to port-forward if the above script returns MINECRAFT BAD. 
+The [next script](https://github.com/devqurious/homecloud/blob/main/yml/minecraft/port-forward.py) is a simple one to spawn a new process to port-forward if the above script returns MINECRAFT BAD. 
 
 ```
 #!/usr/bin/python3
@@ -42,7 +42,7 @@ for pod in pod_list.items:
     os.system('sudo kubectl -n minecraft --address 0.0.0.0 port-forward ' + pod.metadata.name + ' 25565:25565')
 ```
 
-And finally a bash script to tie them both together.
+And finally a [bash script](https://github.com/devqurious/homecloud/blob/main/yml/minecraft/spawn_server.sh) to tie them both together.
 
 ```
 #!/bin/bash
