@@ -100,3 +100,5 @@ Now open a browser and enter `http://localhost:9999/` and voila!
 ![Traefik Dashboard](/images/pi/traefik_dashboard_2.png)
 
 It's all colorful gobledygook right now. But we will explore further and enter the rabbit hole.
+
+PS: The steps need to be re-done with the node is restarted. (Why? TODO: Make this permanent)
