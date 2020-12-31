@@ -5,6 +5,7 @@ thumb_image: "/images/pi/pihole-logo.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Let's use Helm now to install something a bit more complex - the [pihole DNS server](https://pi-hole.net). This provides ad-blocking. It's pretty neat. 

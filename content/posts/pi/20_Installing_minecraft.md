@@ -5,6 +5,7 @@ thumb_image: "/images/pi/minecraft.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Adding the world's most popular video game to the k3s cluster seems like a good idea. There are a couple of posts that guide us in this endeavour - [this](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-4-minecraft-pi-hole-grafana-and-more ) and [this](https://github.com/itzg/minecraft-server-charts/tree/master/charts/minecraft). 

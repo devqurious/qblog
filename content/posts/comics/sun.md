@@ -3,6 +3,7 @@ title: "How does the sun work?"
 date: 2019-08-19T16:45:23+05:30
 draft: false
 thumb_image: "/images/sun/post.jpg"
+categories: ["Comics"]
 ---
 
 ![](/images/sun/Page_1.jpg)

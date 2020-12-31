@@ -5,6 +5,7 @@ thumb_image: "/images/pi/password.jpg"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 We are going to be logging into the master hundreds (maybe thousands?) of times during development. Do we really want to enter the password that many number of times? NO!

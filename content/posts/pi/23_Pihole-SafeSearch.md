@@ -5,6 +5,7 @@ thumb_image: "/images/pi/safe_search.png"
 omit_header_text: true
 draft: true
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Google search is great, and it would be hard to get by without it. But it's also a dangerous thing in the hands of a minor - the wrong search, or a typo can expose the kid to all kinds of nonsense. With PiHole you can force every search to be a safe search and thereby reduce the risk greatly. You don't need to configure this on every device on your network - just do it once in PiHole. 

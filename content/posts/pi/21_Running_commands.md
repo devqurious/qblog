@@ -5,6 +5,7 @@ thumb_image: "/images/pi/exec_command.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 The problem with previous post (Part 18) was that that any configurations made by "exec"-ing into the pod are lost if the pod restarts. A viable approach is to use PiHole API's to enable and disable the restricted group. Alas, the group-based API's are not quite there yet. In the future this could be a great option, but right now, we need to look elsewhere. 

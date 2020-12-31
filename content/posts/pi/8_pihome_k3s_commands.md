@@ -5,6 +5,7 @@ thumb_image: "/images/pi/controller.jpg"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 We have K3s up and the all powerful *kubectl* command line utility. 

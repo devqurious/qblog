@@ -5,6 +5,7 @@ thumb_image: "/images/pi/two.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Now it's simple enough to add a second app - a second container. This time we will install a simple app for the pi that emits details about the container it runs in - [whoami](https://hub.docker.com/r/containous/whoami).

@@ -5,6 +5,7 @@ thumb_image: "/images/pi/traefik-post.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 List all the ingress by running the following command 

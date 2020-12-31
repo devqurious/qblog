@@ -5,6 +5,7 @@ thumb_image: "/images/pi/boat.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Installing apps using the `kubectl apply -f` option quickly becomes tedious. So we have *Helm* package manager for installing apps into the K3s cluster. 

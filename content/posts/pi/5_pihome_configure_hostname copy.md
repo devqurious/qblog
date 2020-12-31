@@ -5,6 +5,7 @@ thumb_image: "/images/pi/DNS.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 We homo sapiens are good with names. Let's give a hostname to our master node. In the network below we have a firewall that can act as a DNS server too, so let's add a DNS host entry to the router. 

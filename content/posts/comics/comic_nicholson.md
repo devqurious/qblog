@@ -5,6 +5,7 @@ featured_image: "/images/nicholson/Page_1.jpg"
 thumb_image: "/images/nicholson/featured_image.jpg"
 omit_header_text: true
 draft: false
+categories: ["Comics"]
 ---
 
 What is water made of? Well, all it took was a teeny weeny drop of water to trigger a new stream of science - the science of electro-chemistry. 

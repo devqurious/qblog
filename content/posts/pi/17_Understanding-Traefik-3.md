@@ -5,6 +5,7 @@ thumb_image: "/images/pi/traefik-3.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 The power of Traefik is that it can handle multiple web applications. Let's go back to part 9, and reapply the manifest files. 

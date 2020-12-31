@@ -5,6 +5,7 @@ thumb_image: "/images/pi/Monitoring_Minecraft.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 In the previous part we ran the following command to setup the port forwarding.

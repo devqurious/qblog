@@ -4,6 +4,7 @@ date: 2020-08-19T16:45:23+05:30
 draft: false
 thumb_image: "/images/oersted/post.jpg"
 tags: ["science"]
+categories: ["Comics"]
 ---
 
 ![](/images/oersted/Page_1.jpg)

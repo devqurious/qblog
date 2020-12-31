@@ -5,6 +5,7 @@ thumb_image: "/images/pi/Error.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Sometimes the app you download will not start.  It's status will initially be CrashBackOff, and then eventually it will settle into ERROR state.

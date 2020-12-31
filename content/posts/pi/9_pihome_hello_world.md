@@ -5,6 +5,7 @@ thumb_image: "/images/pi/hello-world.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 It all starts [here](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program). 

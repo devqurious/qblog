@@ -5,6 +5,7 @@ thumb_image: "/images/pi/sync.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 We've started writing enough code now to neccesitate git. Login to GitHub, create a new project repository and follow the instructions to connect it to a repo in your development box.

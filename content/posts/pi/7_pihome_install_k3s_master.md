@@ -5,6 +5,7 @@ thumb_image: "/images/pi/K3s.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Finally, we're ready to install K3s on the master node. First step is to update a /boot/firmware/cmdline.txt (*not* /boot/cmdline.txt) as some sites mention. Add the first two parameters (cgroup_memory and cgroup_enable) as shown below.

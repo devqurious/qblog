@@ -5,6 +5,7 @@ thumb_image: "/images/pi/ip.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 By default, the OS will assign a DHCP IP address to the node. But dynamically changing IP addresses are not a good idea when it comes to servers. To provide a static IP address, we need to do two things. 

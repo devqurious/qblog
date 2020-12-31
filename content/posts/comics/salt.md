@@ -3,6 +3,7 @@ title: "Why does salt dissolve in water?"
 date: 2019-06-19T16:45:23+05:30
 draft: false
 thumb_image: "/images/salt/post.jpg"
+categories: ["Comics"]
 ---
 
 ![](/images/salt/Page_1.jpg)

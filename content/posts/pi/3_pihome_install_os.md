@@ -5,6 +5,7 @@ thumb_image: "/images/pi/Ubuntu.jpg"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Insert the sdcard into the Macbook Pro. 

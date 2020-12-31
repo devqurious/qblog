@@ -5,6 +5,7 @@ thumb_image: "/images/pi/traefik.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Traefik is something that's installed by default when you install K3s. It's like the door to your cluster. The external world interacts with the services inside the cluster using Traefik. 

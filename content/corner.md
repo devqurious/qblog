@@ -1,9 +1,7 @@
 ---
-title: QuriousCorner
+title: A Qurious Corner...
 description: A place for creativity
 type: page
-menu: main
-
 ---
 
 ![](/images/qc_stack.jpg)

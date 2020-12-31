@@ -5,6 +5,7 @@ thumb_image: "/images/pi/pi-groups.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Pihole 5 has a feature where you can create a group and assign domain blocklists to just that group only. Now [this is perfect](https://www.vikash.nl/exclude-client-devices-with-pi-hole-5/) when you want to block some domains in your kids computers but don't want to do that for the rest of the machines owned by the adults (yes, this is parental control, our right, as parents! :)). You assign the kids machine to that group, and boom, the kid's machine can no longer access those domains. But there is a problem. 

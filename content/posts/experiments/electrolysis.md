@@ -1,9 +1,10 @@
 ---
-title: "Sorry Aristotle"
+title: "Split Water"
 date: 2020-10-24T19:04:06+05:30
 featured_image: "/images/electrolysis/IMG_6150.jpeg"
 thumb_image: "/images/electrolysis/IMG_6150.jpeg"
 draft: false
+categories: ["Experiments"]
 ---
 
 {{< youtube -M7zCZBEDUU >}}

@@ -5,6 +5,7 @@ thumb_image: "/images/pi/parental-control.png"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
+categories: ["HomeCloud"]
 ---
 
 Pihole is a great adblocker. But can it do its bit for parental control?
