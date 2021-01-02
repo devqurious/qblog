@@ -17,3 +17,7 @@ The firewall here is pretty central to the network. It's where we configure DHCP
 This is the time to also note down the IP addresses of your devices. If you have multiple wired and wireless neteorks make sure you can ping across them. 
 
 Onward!
+
+NOTE: As things progressed, it [became evident](/posts/pi/18_pihole-parental-control-1) that the better place to place the Pi was in the wifi network itself, for better monitoring and device discovery. So the network was modified to the following:
+
+![](/images/pi/HomeCloud-v2.png)
