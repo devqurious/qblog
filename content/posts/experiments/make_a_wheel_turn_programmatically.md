@@ -40,9 +40,7 @@ If you notice your motor starts spinning during the process of making your conne
 
 In this experiment, we will build what’s called “software” – that is, we write a computer program. When we run the program the wheels turn clockwise for 10 seconds and then stop. Just how we programmed it to!
 
-![img-medium](http://img.youtube.com/vi/xrX7fgS_PfI/0.jpg)
-
-[Click here to play the above video](https://youtu.be/xrX7fgS_PfI)
+{{< youtube xrX7fgS_PfI >}}
 
 ## Things we need
 

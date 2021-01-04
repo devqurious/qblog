@@ -1,10 +1,12 @@
-<!-- <div id="exp_meta" class="hidden">
-{
-"title": "Make a time-lapse video recorder",
-"description": "Plants grow, we know that. But have you actually seen one grow in front of your eyes?",
-"featured_image": "fi_1cMNuHAwcdVSzhxVxWG2IQg.jpeg"
-}
-</div> -->
+---
+title: "Make a time lapse video"
+date: 2020-09-24T15:44:40+05:30
+featured_image: "http://img.youtube.com/vi/t6TVn5iLJ5w/0.jpg"
+thumb_image: "http://img.youtube.com/vi/t6TVn5iLJ5w/0.jpg"
+omit_header_text: true
+draft: false
+categories: ["Experiments"]
+---
 
 ## Make a time-lapse recorder
 
@@ -113,9 +115,7 @@ Looks like a sinister little robot now. With a one-eye patch. The eye is glowing
 
 Here is the timelapse video. It was created using iMovie but you can use ImageMagick to do the same too.
 
-![img-medium](http://img.youtube.com/vi/t6TVn5iLJ5w/0.jpg)
-
-[Click here to play the above video](https://youtu.be/t6TVn5iLJ5w)
+{{< youtube  t6TVn5iLJ5w >}}
 
 Space reserved for a time lapse video of a plant growing up. That was the original inspiration of this project — to show kids how plants really grow.
 
