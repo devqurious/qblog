@@ -1,10 +1,10 @@
 ---
-title: "Part 24: 3-Node HA Embedded Cluster"
+title: "Part 24: 3-Node cluster"
 date: 2020-12-27T12:10:51+05:30
 thumb_image: "/images/pi/IMG_6442.JPG"
 omit_header_text: true
 draft: false
-tags: ["homecloud", "computers"]
+tags: ["homecloud", "etcd"]
 categories: ["HomeCloud"]
 ---
 

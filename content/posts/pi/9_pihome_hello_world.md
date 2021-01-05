@@ -24,7 +24,7 @@ When all this is complete, you can simply open the application in any browser, o
 
 The entire process is explained beautifully [here](https://www.youtube.com/watch?v=QcC-5fRhsM8) and [written here](https://carpie.net/articles/ingressing-with-k3s). But newer versions of K3s have rendered some parts of the yml inaccurate. 
 
-The updated one can be found [here](https://github.com/devqurious/homecloud/blob/main/yml/mysite-nginx.yml) but alas, one day it is sure to be outdated and inaccurate itself. 
+The updated one can be found [here](https://github.com/devqurious/homecloud/blob/main/yml/hello-world/mysite-nginx.yml) but alas, one day it is sure to be outdated and inaccurate itself. 
 
 
 ## Play round
@@ -39,7 +39,7 @@ mysite-nginx-5559ffd776-64mhj   1/1     Running   0          8s     10.42.0.12  
 mysite-nginx-5559ffd776-vzrh6   1/1     Running   0          8s     10.42.0.13   newton   <none>           <none>
 ```
 
-Well, right now, it's just serving you. 
+Well, right now, it's just serving you at [http://newton/hello-world](http://newton/hello-world).
 
 To modify the message
 
