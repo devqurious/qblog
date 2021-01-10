@@ -1,7 +1,7 @@
 ---
 title: "Part 27: A cluster of Piholes"
 date: 2020-12-30T12:10:51+05:30
-thumb_image: "/images/pi/iamk3s.png"
+thumb_image: "/images/pi/pi_cluster.jpg"
 omit_header_text: true
 draft: false
 tags: ["homecloud", "computers"]
