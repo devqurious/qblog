@@ -10,7 +10,20 @@ categories: ["HomeCloud"]
 
 Let's use Helm now to install something a bit more complex - the [pihole DNS server](https://pi-hole.net). This provides ad-blocking. It's pretty neat. 
 
-When installing an app via Helm, it is common to provide that app some defaults. This is passed in via a defaults file. For pihole, [this](https://github.com/devqurious/homecloud/blob/main/yml/pihole/pihole_values.yml) is what the defaults file contains.
+As usual.
+
+```
+helm repo add mojo2600 https://mojo2600.github.io/pihole-kubernetes/
+helm repo update
+```
+
+We will install pihole in it's own namespace
+
+```
+sudo kubectl create namespace pihole
+```
+
+When installing an app via Helm, it is common to provide that app some defaults. This is passed in via a [defaults file](https://artifacthub.io/packages/helm/mojo2600/pihole). For pihole, [this](https://github.com/devqurious/homecloud/blob/main/yml/pihole/ph_values.yml) is what the defaults file contains.
 
 ```
 ---
@@ -39,7 +52,13 @@ adminPassword: admin
 So create a file called pihole_values.yml and pass it via the --values parameter. Now, you can install the app like so:
 
 ```
-helm install --version '1.8.22' --namespace pihole --values pihole_values.yml pihole mojo2600/pihole
+ubuntu@newton:~/homecloud/yml/pihole$ helm install --version '1.8.22' --namespace pihole --values ph_values.yml pihole mojo2600/pihole
+NAME: pihole
+LAST DEPLOYED: Fri Jan  8 11:37:29 2021
+NAMESPACE: pihole
+STATUS: deployed
+REVISION: 1
+
 ```
 
 This installs the pihole application itself, and three services as shown below. 
@@ -59,7 +78,7 @@ default       mysite-nginx-service   ClusterIP      10.43.33.101    <none>      
 
 If you now try to `curl http://newton` from outside the cluster (say, from your mac) you will get a 404 error. Because the default ingress controller treafik does not know where to forward the request to. 
 
-Now the final bit is to create an ingress path to the service so that external clients can access the web service (needed for administration). For that we need [a second yaml](https://github.com/devqurious/homecloud/blob/main/yml/pihole/pihole-web.yml) file.
+Now the final bit is to create an ingress path to the service so that external clients can access the web service (needed for administration). For that we need [a second yaml](https://github.com/devqurious/homecloud/blob/main/yml/pihole/ph_web.yml) file.
 
 ```
 ---
@@ -83,7 +102,7 @@ spec:
               number: 80
 ```
 
-Not the kind - Ingress. Also note that we're exposing the service on the /pihole path. Finally, note the service name as pihole-web, which should exactly match the name of the service that was create in the previous step. Now apply this manifest.
+Note the kind - Ingress. Also note that we're exposing the service on the /pihole path. Finally, note the service name as pihole-web, which should exactly match the name of the service that was create in the previous step. Now apply this manifest.
 
 ```
 sudo kubectl apply -f pihole-web.yml
@@ -94,6 +113,15 @@ Now you should be able to open the wonderful web UI of pihole by navigating to [
 ![](/images/pi/pi_home.png)
 
 *Important Note*
+
+Check if pihole is actually running or not by running the following command:
+
+```
+sudo kubectl get pods -A
+pihole        pihole-7f47c6fc8b-lh6gf                           0/1     Pending            0          11m
+```
+
+If the status is Pending, then it's a problem.
 
 Pihole installs it's own DNS service which may conflict with the DNS settings in the base OS - Ubuntu 20.04 in this case. Try setting it to 127.0.0.1 if you're facing problems getting pihole to run. Setting DNS in Ubuntu is convoluted, and there are a 101 different mechanisms noted in Stack Overflow. Try the following:
 

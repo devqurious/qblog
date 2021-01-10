@@ -26,6 +26,10 @@ The entire process is explained beautifully [here](https://www.youtube.com/watch
 
 The updated one can be found [here](https://github.com/devqurious/homecloud/blob/main/yml/hello-world/mysite-nginx.yml) but alas, one day it is sure to be outdated and inaccurate itself. 
 
+```
+kubectl create configmap mysite-html --from-file index.html
+sudo kubectl apply -f mysite-nginx.yml
+```
 
 ## Play round
 

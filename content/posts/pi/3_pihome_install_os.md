@@ -32,4 +32,10 @@ sudo apt-get upgrade
 
 Do not disconnect the local keybard, mouse and video yet. Move to the next part to [set a static IP address](/posts/pi/4_pihome_configue_ip)
 
+Set the timezone. 
+
+```
+sudo timedatectl set-timezone Asia/Kolkata
+```
+
 PS: You dont *have* to connect the pi to keyboard, monitor and mouse. Another option is to simply connect it to the network using an Ethernet cable, and then finding out the DHCP assigned IP address from your router (or whereever DHCP server is running). Then, you can directly SSH in. But having a local keyboard and monitor makes it simpler. 

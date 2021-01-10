@@ -60,11 +60,36 @@ Error: Kubernetes cluster unreachable: Get "http://localhost:8080/version?timeou
 
 Houston, we have a problem. 
 
-It turns out we need to [create a new config file](https://stackoverflow.com/questions/45914420/why-tiller-connect-to-localhost-8080-for-kubernetes-api) in our user's home directory for helm to work correctly. 
+## .kube permissions
+
+It turns out we need to [create a new config file](https://stackoverflow.com/questions/45914420/why-tiller-connect-to-localhost-8080-for-kubernetes-api) in our user's home directory for helm to work correctly, with the right permissions.
 
 ```
+mkdir ~/.kube
 sudo kubectl config view --raw > ~/.kube/config
+chmod 400 /home/ubuntu/.kube/config
 ```
+
+Now confirm the permissions of the .kube dir.
+
+```
+drwxrw---- 3 ubuntu ubuntu  4096 Jan  8 16:17 .kube
+```
+
+```
+ubuntu@newton:~/.kube$ ls -al
+total 16
+drwxrw---- 3 ubuntu ubuntu 4096 Jan  8 16:17 .
+drwxr-xr-x 7 ubuntu ubuntu 4096 Jan  9 03:50 ..
+drwxrw---- 4 ubuntu ubuntu 4096 Jan  8 16:17 cache
+-rw--w---- 1 ubuntu ubuntu 2957 Jan  8 14:42 config
+```
+
+(Ignore the cache dir if its not there - that will get created as you run helm commands which install packages.)
+
+See [this](https://github.com/helm/helm/issues/8776#issuecomment-742607909) for more information. And [this](https://github.com/charmed-kubernetes/bundle/issues/173).
+
+## Getting back
 
 Now, re-run the command.
 
@@ -89,11 +114,7 @@ NAME            	NAMESPACE	REVISION	UPDATED                                	STAT
 mysql-1608355784	default  	1       	2020-12-19 05:29:58.264871295 +0000 UTC	deployed	mysql-1.6.9	5.7.30 
 ```
 
-Nice - something got installed. But let's address that warning.
-
-```
-chmod 400 /home/ubuntu/.kube/config
-```
+Nice - something got installed. 
 
 ```
 ubuntu@newton:~/homecloud/yml$ helm ls

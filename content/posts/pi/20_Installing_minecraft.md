@@ -50,7 +50,7 @@ sudo kubectl -n minecraft --address 0.0.0.0 port-forward [podname] 25565:25565
 
 0.0.0.0 is important. If you follow the instructions and choose 127.0.0.1 it will not work. The former means that the port forwarding will work on all interfaces, not just the localhost interface. And for sure, you're minecraft client is not running on the pi itself. It will be running outside the cluster.
 
-Now if you `telnet [IPAddressOfPi]:25565 you should see a response. You're now done with the server stuff. 
+Now if you `telnet [IPAddressOfPi]:25565` you should see a response. You're now done with the server stuff. 
 
 Download the [Minecraft launcher](https://www.minecraft.net/en-us). Yes, you need to sign in using a Microsoft account. Yes, you need to pay 26 bucks to play the game. Yes, if you intend to play multiplayer, you have to pay 26 bucks for each player. Once you have paid it, you can see the following screen (when you click on Multiplayer - this is NOT visible when you're in demo mode). 
 

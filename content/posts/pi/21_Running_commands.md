@@ -14,10 +14,24 @@ There are two approaches. First, create your own version of the PiHole pod which
 
 [Here](https://github.com/devqurious/homecloud/blob/main/yml/pihole/ph_groups.py) is script that does exactly that. 
 
+It's a python script, so [pip](https://stackoverflow.com/questions/24137291/ubuntu-pip-not-working-with-python3-4) is needed.
+
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
+pip --version
+```
+
+It also uses the [kubernetes python library](https://github.com/kubernetes-client/python), so install that too. 
+
+```
+sudo pip install kubernetes
+```
+
 To disable a group named Restricted
 
 ```
-./ph_groups Restricted 0
+sudo ./ph_groups Restricted 0
 ```
 
 To enable it back.
