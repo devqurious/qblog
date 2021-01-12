@@ -163,3 +163,15 @@ network:
 
 sudo netplan apply
 ```
+
+PS: You may also need to just temporarily disable systemd-resolvd and manually set the DNS nameserver to 8.8.8.8 in /etc/hosts file for the name resolution to work while Pihole is getting installed. After that, you can restart the systemd-resolvd service,  to go back to original settings. 
+
+```
+sudo service systemd-resolved stop
+sudo vim /etc/resolve.conf
+nameserver 8.8.8.8
+```
+
+The problem is that on every reboot, you will end up in this chicken and egg case, where, for sometime  you have to allow pihole to use /etc/resolv.conf before it can start using it's own DNS service. This is a TBD problem. 
+
+In all cases, you need to make sure you are able to ping wwww.google.com from the node(s).
