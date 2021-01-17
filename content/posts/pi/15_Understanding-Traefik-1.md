@@ -93,7 +93,7 @@ ssh -L 9999:localhost:8080 ubuntu@newton
 
 This will basically tunnel all the traffic going to localhost:9999...all the way to localhost:8080 on the remote machine, that's the cluster node in this case (the pi).
 
-Now open a browser and enter `http://localhost:9999/` and voila!
+Now open a browser and enter `http://localhost:9999/dashboard/` and voila!
 
 ![Traefik Dashboard](/images/pi/traefik_dashboard_1.png)
 
