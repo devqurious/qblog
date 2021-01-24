@@ -1,5 +1,5 @@
 ---
-title: "Rsync backup"
+title: "Part 29: Rsync backup"
 date: 2021-01-01T12:10:51+05:30
 thumb_image: "/images/pi/rsync_backups.jpg"
 omit_header_text: true
