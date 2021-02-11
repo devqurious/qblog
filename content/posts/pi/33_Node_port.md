@@ -10,6 +10,7 @@ categories: ["HomeCloud"]
 
 The way to overcome the proble of the last part is to expose the ports in the rsync container (port 22) is to use the NodePort service from K3s. This is more complex, as it does now require an additional entity - a service object.
 
+
 ```
 apiVersion: v1
 kind: Service

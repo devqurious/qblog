@@ -24,6 +24,12 @@ We have only one master node, and if that were to go down, our minecraft gamers 
 
 Let's restart with 3 pi's this time. [Install the OS](/posts/pi/3_pihome_install_os/) and configure them all with three static IP addresses.Then, [install K3s](/posts/pi/7_pihome_install_k3s_master/) on all the nodes.
 
+# Set hostnames
+
+[Set hostnames](https://linuxize.com/post/how-to-change-hostname-on-ubuntu-18-04/) properly. Easier to remember when you're juggling three servers initially. In my case, without setting the hostnames of the individual pi's I could NOT form the cluster!
+
+Also, without proper hostnames in place, the cluster formation does not take place correctly. So `hostnamectl` away!
+
 # Switch to manual 
 
 Login in to each one of them and stop the K3s service. We will run K3s manually first which makes it easier to debug problems when the cluster is being formed. 
@@ -121,4 +127,4 @@ sudo rm -rf /var/lib/rancher
 sudo rm -rf /etc/rancher
 ```
 
-[Set hostnames](https://linuxize.com/post/how-to-change-hostname-on-ubuntu-18-04/) properly. Easier to remember when you're juggling three servers initially. 
+
