@@ -14,6 +14,11 @@ To force safe search create a CNAME entry as below:
 
 ![](/images/pi/safe-search.png)
 
+Try searching something, you should see safe search automatically enabled now.
+
+![](/images/pi/safe.png)
+
+
 Now if you were to search something inappropriate (deliberately, or not!) you're shown this:
 
 ![](/images/pi/blocked.png)

@@ -42,6 +42,31 @@ ssh -L 9999:localhost:8002 ubuntu@newton
 
 Finally, enjoy the dashboard at http://localhost:9999/#/dashboard.
 
+## Important note
+
+Installing longhorn causes two default storage classes to be created, as mentioned here: https://github.com/civo/kube100/issues/12. 
+
+```
+sudo kubectl get storageclass -o wide
+NAME                   PROVISIONER             RECLAIMPOLICY   VOLUMEBINDINGMODE      ALLOWVOLUMEEXPANSION   AGE
+local-path (default)   rancher.io/local-path   Delete          WaitForFirstConsumer   false                  4d2h
+longhorn (default)     driver.longhorn.io      Delete          Immediate              true                   3d11h
+```
+
+This is wierd, and may cause problems when installing apps, such as pihole. 
+
+```
+helm install --version '1.8.22' --namespace pihole --values ph_values.yml pihole mojo2600/pihole
+Error: persistentvolumeclaims "pihole" is forbidden: Internal error occurred: 2 default StorageClasses were found
+```
+
+The fix is in the link above ...
+
+```
+kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"false"}}}'
+```
+
+
 
 
 

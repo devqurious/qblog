@@ -105,7 +105,7 @@ spec:
 Note the kind - Ingress. Also note that we're exposing the service on the /pihole path. Finally, note the service name as pihole-web, which should exactly match the name of the service that was create in the previous step. Now apply this manifest.
 
 ```
-sudo kubectl apply -f pihole-web.yml
+sudo kubectl apply -f pihole-web.yml -n pihole
 ```
 
 Now you should be able to open the wonderful web UI of pihole by navigating to [http://newton/pihole/admin/](http://newton/pihole/admin/). 
@@ -175,3 +175,7 @@ nameserver 8.8.8.8
 The problem is that on every reboot, you will end up in this chicken and egg case, where, for sometime  you have to allow pihole to use /etc/resolv.conf before it can start using it's own DNS service. This is a TBD problem. 
 
 In all cases, you need to make sure you are able to ping wwww.google.com from the node(s).
+
+## If you are deploying pihole in a cluster...
+
+Remember to do these commands on the node where the main pihole container is being installed... (use the -o wide command to find that out.)

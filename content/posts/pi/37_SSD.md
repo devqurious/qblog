@@ -38,3 +38,7 @@ Voila - your pi will now boot into your Ubuntu OS. Yay.
 Connecting the SSD drive to USB-3 ports on the pi gives you more speed, but in my case it caused horrendous problems - the boot ups were very slow, and often it would not boot up at all. Connecting the SSD drive to USB-2 port solved the problem, but of course, the speeds are compromised too. 
 
 Oh well, hopefully the USB-3 drivers are fixed someday, and we can all enjoy the blazing speeds of a SSD. 
+
+But for now, marvel at the fact that your pi's are now suddenly MUCH more reliable, and can store a whopping amount of data. In my case, the upgrade was from a 64GB SD Card to to a 1000 GB SSD drive. 
+
+Nice!!!
