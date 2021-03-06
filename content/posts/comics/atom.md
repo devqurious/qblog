@@ -1,5 +1,5 @@
 ---
-title: "What is an atom?"
+title: "What is an atommmmm?"
 date: 2019-05-19T16:45:23+05:30
 draft: false
 thumb_image: "/images/atoms/post.jpg"
