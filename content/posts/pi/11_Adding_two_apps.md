@@ -14,7 +14,7 @@ To get both of them going, we need to change the yml files a bit:
 
 [Whoami.yml](https://github.com/devqurious/homecloud/blob/main/yml/whoami.yml)
 
-[Mysite-Nginx.yml](https://github.com/devqurious/homecloud/blob/main/yml/mysite-nginx.yml)
+[Mysite-Nginx.yml](https://github.com/devqurious/homecloud/blob/main/yml/hello-world/mysite-nginx.yml)
 
 As before, deploy them like so
 
