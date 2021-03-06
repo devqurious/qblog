@@ -18,5 +18,5 @@ collections:
       - {label: "Featured Image", name: "thumb_image", default: "/images/pi/UnboxingPi.jpg", widget: "image"}
       - {label: "Omit Header Text", name: "omit_header_text", default: "true", widget: "number"}
       - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Comics"}
       - {label: "Body", name: "body", widget: "markdown"}
