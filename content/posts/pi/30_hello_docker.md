@@ -158,3 +158,23 @@ mysite-nginx-5559ffd776-nlg69     1/1     Running   3          13d    10.42.1.14
 
 
 ```
+
+## Notes
+
+This container runs two server - nginx AND rsync over SSH. If you were to run the container locally...
+
+```
+docker run -it -d  -p 8080:80 -p 2222:22 drathaqm/home_sync
+```
+
+...you can access both services thus:
+
+1. Open a browser and type http://localhost:8080
+2. Open a terminal and type ssh -p 2222 root@localhost
+
+
+
+
+## Links
+
+Understand the [difference between ENTRYPOINT and CMD](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/) and why you may sometimes want to use them BOTH in a Dockerfile.

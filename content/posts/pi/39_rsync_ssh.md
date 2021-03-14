@@ -4,7 +4,7 @@ date: 2021-02-01T12:10:51+05:30
 thumb_image: "/images/pi/lsync.jpg"
 omit_header_text: true
 draft: false
-tags: ["homecloud", "rsync"]
+tags: ["backup", "rsync"]
 categories: ["HomeCloud"]
 ---
 

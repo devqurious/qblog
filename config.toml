@@ -39,10 +39,17 @@ googleAnalytics = "UA-186172134-1"
     weight = -10
 
   [[menu.main]]
+    name = "Etc"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories/etc/"
+    weight = -5
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     url = "/corner/"
-    weight = -5
+    weight = -1
 
   

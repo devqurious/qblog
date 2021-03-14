@@ -42,4 +42,14 @@ sudo kubectl delete deployment hc-rsyncer-app
 
 Get last set of events...
 
-`sudo kubectl get events --all-namespaces  --sort-by='.metadata.creationTimestamp'`
+```
+sudo kubectl get events --all-namespaces  --sort-by='.metadata.creationTimestamp'
+```
+
+## Delete a pod in a bad state
+
+```
+sudo kubectl delete pods [hc-rsyncer-app-54d46f6df5-rxt4s] -n rsync
+```
+
+
