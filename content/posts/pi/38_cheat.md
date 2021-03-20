@@ -52,4 +52,8 @@ sudo kubectl get events --all-namespaces  --sort-by='.metadata.creationTimestamp
 sudo kubectl delete pods [hc-rsyncer-app-54d46f6df5-rxt4s] -n rsync
 ```
 
+## Delete all resources in a namespace.
 
+```
+kubectl delete all --all -n {namespace}
+```
