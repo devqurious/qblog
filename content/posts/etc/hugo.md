@@ -21,6 +21,17 @@ git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 ```
 
+Make sure you edit the config.toml file and add the above theme. 
+
+```
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "ananke"
+```
+
+Run `hugo server -D` and make sure your blog shows up on localhost.
+
 ## Check your git
 
 Test your [github connection](https://docs.github.com/en/github/authenticating-to-github/testing-your-ssh-connection) and if its not setup correctly, upload your SSH key to your account.
@@ -135,6 +146,10 @@ Set the [site logo](https://github.com/theNewDynamic/gohugo-theme-ananke) which 
 [params]
 site_logo = "/images/logo.png"
 ```
+
+## Add Google Analytics
+
+Go to google analytics and create a new property. Remember to choose the "advanced options" when creating the property so you can choose the Universal Analytics code starting with "UA-"...then add that to the config.toml file.
 
 
 

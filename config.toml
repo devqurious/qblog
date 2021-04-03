@@ -18,13 +18,6 @@ googleAnalytics = "UA-186172134-1"
     weight = -30
 
   [[menu.main]]
-    name = "HomeCloud"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/categories/homecloud/"
-    weight = -10
-
-  [[menu.main]]
     name = "Comics"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
