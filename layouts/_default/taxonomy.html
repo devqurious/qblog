@@ -32,6 +32,17 @@
     </div>
   {{ end }}
 
+  {{/* Layout styles depending on the page title */}}
+
+  {{ if eq .Title "Activities" }}
+    <section>
+      {{ range .Paginator.Pages }}
+      <div class="">
+        {{- partial "listsummary.html" . -}}
+      </div>
+      {{ end }}
+    </section>
+  {{ else}}
   <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
     {{- .Content -}}
   </section>
@@ -42,6 +53,9 @@
     </div>
     {{ end }}
   </section>
+  {{ end }}
+  
+
   {{- template "_internal/pagination.html" . -}}
 </article>
 {{ end }}

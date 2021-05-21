@@ -11,10 +11,10 @@ googleAnalytics = "UA-186172134-1"
 [menu]
 
   [[menu.main]]
-    identifier = "Home"
-    name = "Home"
+    identifier = "Activities"
+    name = "Activities"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/"
+    url = "/categories/activities/"
     weight = -30
 
   [[menu.main]]
@@ -45,4 +45,6 @@ googleAnalytics = "UA-186172134-1"
     url = "/corner/"
     weight = -1
 
+[params]
+  custom_css = ["css/custom.css"]
   
