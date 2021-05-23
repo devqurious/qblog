@@ -11,24 +11,17 @@ googleAnalytics = "UA-186172134-1"
 [menu]
 
   [[menu.main]]
+    name = "Stories"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories/stories/"
+    weight = -30
+
+  [[menu.main]]
     identifier = "Activities"
     name = "Activities"
     pre = "<i class='fa fa-heart'></i>"
     url = "/categories/activities/"
-    weight = -30
-
-  [[menu.main]]
-    name = "Comics"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/categories/comics/"
-    weight = -10
-  
-  [[menu.main]]
-    name = "Experiments"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/categories/experiments/"
     weight = -10
 
   [[menu.main]]

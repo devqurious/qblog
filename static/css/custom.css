@@ -19,10 +19,9 @@
 }
 
 .list-with-title .listing-title {
-    font-size: 24px;
+    font-size: 18px;
     color: #666666;
-    font-weight: 600;
-    line-height: 2.2em;
+    line-height: 1.8em;
 }
 
 .list-with-title .listing {

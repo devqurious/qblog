@@ -1,5 +1,4 @@
 ---
 title: "Home"
-description: "The Quriousity Blog"
 ---
-Hack.Understand.Repeat.
+Stories and activities for the qurious mind.
