@@ -4,8 +4,7 @@ date: 2021-03-05T08:10:51+05:30
 thumb_image: "/images/pi/UnboxingPi.jpg"
 omit_header_text: true
 draft: false
-tags: ["hugo", "netrlify"]
-categories: ["Etc"]
+categories: ["Blog"]
 ---
 
 This is a static blog using Hugo and hosted on Netlify. Hugo and Netlify work great together. To create your own site like this, follow these steps. 

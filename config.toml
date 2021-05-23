@@ -1,6 +1,6 @@
 baseURL = "https://www.aquriousmind.com"
 languageCode = "en-us"
-title = ""
+title = "A Qurious Mind"
 theme = "ananke"
 googleAnalytics = "UA-186172134-1"
 
@@ -32,10 +32,10 @@ googleAnalytics = "UA-186172134-1"
     weight = -10
 
   [[menu.main]]
-    name = "Etc"
+    name = "Blog"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
-    url = "/categories/etc/"
+    url = "/categories/blog/"
     weight = -5
 
   [[menu.main]]

@@ -34,7 +34,7 @@
 
   {{/* Layout styles depending on the page title */}}
 
-  {{ if eq .Title "Activities" }}
+  {{ if or (eq .Title "Activities") (eq .Title "Blog") }}
     <section>
       {{ range .Paginator.Pages }}
       <div class="">
