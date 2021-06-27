@@ -49,3 +49,9 @@
 .list-with-title .listing .listing-post a:hover {
     color: #2660ab;
 }
+
+.obsidian {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    font-size: 18px;
+    background-color: white;
+}

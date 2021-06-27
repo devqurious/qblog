@@ -1,6 +1,6 @@
 baseURL = "https://www.aquriousmind.com"
 languageCode = "en-us"
-title = "A Qurious Mind"
+title = "AQuriousMind"
 theme = "ananke"
 googleAnalytics = "UA-186172134-1"
 
@@ -40,4 +40,13 @@ googleAnalytics = "UA-186172134-1"
 
 [params]
   custom_css = ["css/custom.css"]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = "www.foo.com"
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = "www.goog.com"
+  youtube = "www.times.com"
+  body_classes = "obsidian"
+  post_content_classes = "obsidian"
   
