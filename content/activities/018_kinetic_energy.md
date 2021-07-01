@@ -8,12 +8,6 @@ categories:
     - Activities
 ---
 
-![](/images/experiments/kinetic_energy.jpg)
-
-Intuitively, when we look at something, we know if that "thing" is a solid, liquid or gas. But what's happenning at the molecular level in these three different states (of matter, as we say)?
-
-[Do the experiment](https://notes.aquriousmind.com/physics/01-kinetic-energy) and find out!
 
 
-
-
+{{< hp5 "https://notes.aquriousmind.com/physics/01-kinetic-energy" >}}
