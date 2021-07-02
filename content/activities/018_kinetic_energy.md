@@ -8,6 +8,4 @@ categories:
     - Activities
 ---
 
-
-
 {{< hp5 "https://notes.aquriousmind.com/physics/01-kinetic-energy" >}}
