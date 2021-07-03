@@ -5,9 +5,5 @@
   </a>
     <div>{{ partial "social-follow.html" . }}</div>
   </div>
-  {{ $somevar := "spam"}}
-  <button onclick="myFunction( {{ $somevar}} )">Click me</button>
-
-  <script defer language="javascript" type="text/javascript"  src="{{ "/js/custom.js" | urlize | relURL }}"></script>
-
+  <script language="javascript" type="text/javascript"  src="{{ "js/custom.js" | urlize | relURL }}"></script>
 </footer>
