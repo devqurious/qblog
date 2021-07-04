@@ -12,7 +12,7 @@ categories:
 
 ### Introduction
 
-![](/images/electronics/attachments/Pasted%20image%2020210704060129.png)
+![](/images/electronics/attachments/Pasted%20image%2020210704060129.jpeg)
 
 A valve is a device that controls the flow of a fluid. It does so by either blocking the passage, or unblocking it. A solenoid valve uses electromagnetism to block, or unblock the flow of the fluid material. A coil of wire inside the solenoid valve becomes "magnetized" when current passes through it. This pulls in the "plunger" and opens up the passage. When current stops flowing through the coil, the magnetism is lost, and the plunger goes back to it's normal blocking position.
 
@@ -86,7 +86,7 @@ See [02-relay](/activities/02-relay) for more details on how to connect the rela
 - Connect JDVcc to a different 5V power supply (set to a max of 70mA)
 - Connect Gnd to Negative terminal of 5V power suppy
 
-![](/images/electronics/attachments/Pasted%20image%2020210704084027.png)
+![](/images/electronics/attachments/Pasted%20image%2020210704084027.jpeg)
 
 ##### Connect the solenoid valve
 
