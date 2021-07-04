@@ -131,7 +131,7 @@ As soon as you connect In1 to ground (or negative terminal), you should hear a c
 
 Then repeat the test for In2 terminal too.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QPeauw3MITM?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube QPeauw3MITM >}}
 
 References:
 
@@ -168,8 +168,7 @@ GPIO.cleanup()
 
 If all goes well, you should see the relay switch turn on and off periodically.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/32fhvfTvEm0?start=2" title="YouTube video player" allowfullscreen></iframe>
-
+{{< youtube 32fhvfTvEm0 >}}
 
 ### Troubleshooting
 
