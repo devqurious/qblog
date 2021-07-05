@@ -1,6 +1,6 @@
 ---
 title: "A simple circuit with a LED"
-date: 2021-07-01T16:45:23+05:30
+date: 2021-06-30T16:45:23+05:30
 thumb_image: "/images/electronics/attachments/Pasted%20image%2020210619225933.jpeg"
 draft: false
 tags: ["Electricity", "Experiments"]
