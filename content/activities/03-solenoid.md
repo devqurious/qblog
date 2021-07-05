@@ -1,7 +1,7 @@
 ---
 title: "Control a solenoid using python"
 date: 2021-07-02T16:45:23+05:30
-thumb_image: "/images/experiments/solenoid.jpeg"
+thumb_image: "/images/electronics/attachments/solenoid.jpeg"
 draft: false
 tags: ["Electricity", "Experiments"]
 categories:
