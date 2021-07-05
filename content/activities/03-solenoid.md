@@ -1,7 +1,7 @@
 ---
 title: "Control a solenoid using python"
 date: 2021-07-02T16:45:23+05:30
-thumb_image: "/images/electronics/attachments/solenoid.jpeg"
+thumb_image: "/images/experiments/solenoid.jpeg"
 draft: false
 tags: ["Electricity", "Experiments"]
 categories:
@@ -26,7 +26,7 @@ We will test a solenoid, first without any water flowing through it, and then ge
 
 Watch this video for how they work, and where they are used.
 
-{{< youtube -MLGr1_Fw0c >}}
+{{< youtube -MLGr1_Fw0c>}}
 
 Explore the different types of solenoid vales:
 - https://tameson.com/solenoid-valve-types.html
@@ -62,7 +62,7 @@ The solenoid is a mechanical device so it's possible to "feel" it when the valve
 
 But first, observe the solenoid.
 
-{{< youtube ZajcDkK6KVs >}}
+{{< youtube ZajcDkK6KVs>}}
 
 Then connect it to a power supply.
 
@@ -71,11 +71,11 @@ Then connect it to a power supply.
 - Connect the power supply to the solenoid valve.
 - Hold the valve. Do you feel the plunger move when you supply power?
 
-{{< youtube BGQ_oT35TBM >}}
+{{< youtube BGQ_oT35TBM>}}
 
 Finally, attach the solenoid to a water supply. Walk around the house, if you need to. :)
 
-{{< youtube VYOJqD6jn1o >}}
+{{< youtube VYOJqD6jn1o>}}
 
 ### Experiment - 2: Contol the solenoid valve using Python
 
@@ -92,7 +92,7 @@ See [02-relay](/activities/02-relay) for more details on how to connect the rela
 
 Connect 12V power to one of the terminals of the solenoid valve. Connect the other terminal to the negative terminal _through the NO terminals of the relay_ as shown in the video below.
 
-{{< youtube LYhnw2U3l_g >}}
+{{< youtube LYhnw2U3l_g>}}
 
 ##### Run the Python program
 
@@ -127,7 +127,6 @@ GPIO.cleanup()
 ### Tags
 #pressure, #electromagnetism, #solenoid,
 
-### WIP
 
 WIP - check back later...
 

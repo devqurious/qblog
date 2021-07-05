@@ -1,6 +1,6 @@
 ---
 title: "Control a relay using python"
-date: 2021-07-02T16:45:23+05:30
+date: 2021-07-01T16:45:23+05:30
 thumb_image: "/images/experiments/relay.jpeg"
 draft: false
 tags: ["Electricity", "Experiments"]
