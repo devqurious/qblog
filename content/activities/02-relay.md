@@ -1,6 +1,6 @@
 ---
 title: "Control a relay using python"
-date: 2021-07-01T16:45:23+05:30
+date: 2021-07-02T16:45:23+05:30
 thumb_image: "/images/experiments/relay.jpeg"
 draft: false
 tags: ["Electricity", "Experiments"]
@@ -112,6 +112,10 @@ This solid state relay module has a high trigger option. It requires 160mA and 5
 
 ![](/images/electronics/attachments/Pasted%20image%2020210626135708.jpeg)
 
+You can see it in "silent" action below.
+
+{{< youtube wVY99HxCbrc>}}
+
 ### Experiment 1 - Test the relay
 
 For this experiment we will use the 2-relay module with opto-isolation.
@@ -131,7 +135,7 @@ As soon as you connect In1 to ground (or negative terminal), you should hear a c
 
 Then repeat the test for In2 terminal too.
 
-{{< youtube QPeauw3MITM >}}
+{{< youtube QPeauw3MITM>}}
 
 References:
 
@@ -168,7 +172,8 @@ GPIO.cleanup()
 
 If all goes well, you should see the relay switch turn on and off periodically.
 
-{{< youtube 32fhvfTvEm0 >}}
+{{< youtube 32fhvfTvEm0>}}
+
 
 ### Troubleshooting
 
@@ -281,6 +286,10 @@ For that, see [03-solenoid](/activities/03-solenoid).
 - Using a [2N222 transistor](https://vuelta-de-tuercas.blogspot.com/2014/01/rasphousy-part-1.html)
 
 - https://raspberrypi.stackexchange.com/questions/9298/what-is-the-maximum-current-the-gpio-pins-can-output
+
+Quora
+https://www.quora.com/Can-a-Raspberry-Pi-drive-a-12v-relay
+
 
 ##### tags
 
