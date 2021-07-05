@@ -287,10 +287,6 @@ For that, see [03-solenoid](/activities/03-solenoid).
 
 - https://raspberrypi.stackexchange.com/questions/9298/what-is-the-maximum-current-the-gpio-pins-can-output
 
-Quora
-https://www.quora.com/Can-a-Raspberry-Pi-drive-a-12v-relay
-
-
 ##### tags
 
 #relay, #opto-coupler, #electromagnetism

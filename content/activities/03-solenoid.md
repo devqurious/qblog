@@ -125,31 +125,4 @@ GPIO.cleanup()
 - What is a latching relay, and why is it useful?
 
 ### Tags
-#pressure, #electromagnetism, #solenoid,
-
-
-WIP - check back later...
-
-Added some more note.s..
-
-https://www.instructables.com/Motion-Sensor-Water-Tap-Using-Arduino-and-Solenoid/
-
-https://tameson.com/solenoid-valve-types.html
-
-
-
-Solenoid
-
-- https://www.amazon.in/gp/product/B01AUSTHRI/ref=ox_sc_act_image_1?smid=A2YO1EOTXB6FMN&psc=1
-- Model:2W-160-15
-- Working Medium: Air, Water, Oil, Gas
-- Operating Type: Directly driven
-- State: Normally closed
-- Flow bore: 16mm
-- CV: 4.8
-- Pipe Size: 1/2"
-- Operating Viscosity: Under 20CST
-- Operating Pressure: 0-10 Kg/cm?
-- Working Temperature: -5~80¡æ
-- Voltage: DC 12V, ¡À10%
-- Valve Body: Brass
+#pressure, #electromagnetism, #solenoid
